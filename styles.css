@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+#status-message {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
